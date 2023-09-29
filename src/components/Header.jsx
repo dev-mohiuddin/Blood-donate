@@ -13,7 +13,7 @@ function Header() {
     <div className="w-full bg-white">
         <div className="container h-14 md:h-16 flex justify-between items-center">
             <div>
-                <h1 className="text-2xl font-bold  ">Blood ‍<span className="text-red-600">Donet</span> </h1>
+                <h1 className="text-2xl md:text-3xl font-bold uppercase ">Blood ‍<span className="text-red-600">Donate</span> </h1>
             </div>
             <div>
                 <span onClick={()=>setMobileMenu(true)} className="text-xl text-gray-800 cursor-pointer md:hidden"><AiOutlineBars /></span>

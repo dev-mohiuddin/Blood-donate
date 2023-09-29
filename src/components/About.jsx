@@ -35,7 +35,7 @@ function About() {
                   <div className='w-52 h-52 rounded-full border-8 border-white shadow-md  overflow-hidden'>
                     <img className='w-full h-full object-cover hover:scale-105 duration-300' src={sofikul} alt="emon" />
                   </div>
-                  <h1 className='text-xl uppercase text-gray-800 font-bold'>Emon talukdar</h1>
+                  <h1 className='text-xl uppercase text-gray-800 font-bold'>Shafikul islam</h1>
                   <h3 className='tex-lg uppercase text-gray-700 font-medium mb-2'>chairman</h3>
                   <div className='flex w-full justify-center items-center gap-5 py-2 bg-slate-200'>
                     <span className='text-lg text-gray-800 cursor-pointer hover:text-red-600 duration-300'><BsFacebook/></span>

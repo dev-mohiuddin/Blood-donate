@@ -12,7 +12,6 @@ function Hero() {
     const settings = {
         dots: false,
         infinite: true,
-        speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
@@ -24,9 +23,9 @@ function Hero() {
 
     return (
         <div className='w-full'>
-            <div className=' h-[calc(100vh-64px)] relative'>
+            <div className=' h-[calc(100vh-56px)] md:h-[calc(100vh-64px)] relative'>
                 <Slider {...settings}>
-                    <div className="flex h-[calc(100vh-64px)] relative">
+                    <div className="flex h-[calc(100vh-56px)] md:h-[calc(100vh-64px)] relative">
                         <div className="absolute w-full h-full bg-black/30"></div>
                         <img className="w-full h-full object-cover" src={heroimg4} alt="img" />
                         <div className=" absolute z-50 h-screen w-full left-0 top-0">
